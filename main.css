@@ -1,0 +1,812 @@
+   * {
+       margin: 0;
+       box-sizing: border-box;
+       font-family: 'Source Serif Pro', serif;
+   }
+  a {
+    text-decoration: none;
+    color: black;
+  }
+
+   /*CONTAINERS*/
+    .block_upper_banner
+    {
+      left: 0px;
+      top: 0px;
+      height:130px;
+      width:100%;
+
+      display: grid;
+      grid:
+      "b1 b2 b3 s1 b4"
+      "b1 b2 b3 s2 b4";
+      justify-content: center;
+        
+      font-size: 20px;
+      text-align: center;
+      font-weight: 500;
+      
+
+      background-color: #DADADA;
+    }
+    #mail_block_upper_banner {
+        text-decoration: none;
+        color: black;
+        font-weight: 500;
+    }
+    .element_upper_banner_big_box
+    {
+    height: 50px;
+    width: 200px;
+    margin-right:  10px;
+    margin-left: 10px;
+    margin-top: 10px;
+
+    padding-top: 10px;;
+
+
+    background-color: white;
+    border: 3px solid #D1D2D8;
+    border-radius: 14px;
+    }
+    #my_logo {
+
+        width: 100%;
+        height: 100%;
+        margin-top: 0;
+    }
+
+    .element_upper_banner_small_box
+    {
+      position: relative;
+      left: 0px;
+      top: 10px;
+      height: 30px;
+      width: 200px;
+      margin-right:  10px;
+      margin-left: 10px;
+
+      background-color: white;
+
+      padding: 10px auto;
+      border: 3px solid #D1D2D8;
+      border-radius: 14px;
+
+    }
+    .tel_tel {
+        text-decoration: none;
+        color: black;
+        font-weight: 500;
+    }
+    
+    .block_lower_banner
+    {
+      left: 0px;
+      top: 100px;
+      height:80px;
+      width:100%;
+
+      display: flex;
+      justify-content: center;
+
+      background-color: #DADADA;
+    }
+
+    .block_main_slider
+    {
+      left: 0px;
+      top: 200px;
+      height:500px;
+      width:100%;
+
+      display: flex;
+      justify-content: center;
+
+      background-color: #FFFFFF;
+    }
+
+    .block_button_segment
+    {
+      height:50px;
+      width:100%;
+      background-color:  #519CBB;;
+      display: flex;
+      justify-content: center;
+    }
+
+    .main_companies {
+        position: flex;
+        justify-content: center;
+        background: red;
+    }
+
+    .element_companies_logos
+    {
+      position: relative;
+      top: 0px;
+      left: 0px;
+      height: 200px;
+      width: 100%;
+
+      background-color:#FFDCA0;
+    }
+
+    .element_company_logo_box
+    {
+      position: relative;
+      top: 100px;
+      left: 0px;
+      height: 100px;
+      width: 250px;
+      max-width: 300px;
+
+      display: flex;
+      justify-content: center;
+
+      background-color: #F7F7F7;
+    }
+
+    .element_company_info
+    {
+      position: relative;
+      top: 70px;
+      left: 0px;
+      width: 100%;
+
+      display: flex;
+      justify-content: center;
+
+      background-color: #FFDCA0;
+    }
+
+    .title_types_insurance {
+        font-size: 28px;
+        font-weight: 600;
+        width: 100%;
+        text-align: center;
+        padding-top: 20px;
+    }
+
+    .main_flex {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+
+    .element_conmpany_info_box{
+      position: relative;
+      top: 0px;
+      left: 30px;
+      right: 30px;
+      height: 350px;
+      width: 1100px;
+
+      margin-top: 50px;
+
+      display: none;
+      background-color: #FFFFFF;
+    }
+
+    .element_company_logo_image {
+      top: 0px;
+      left: 0px;
+      height: 100px;
+      width: 200px;
+    }
+
+    .element_slider_info
+    {
+      position: absolute;
+      top: 45%;
+      left: 25%;
+      opacity: 0.8;
+      height:200px;
+      width: 800px;
+      background-color: #1C6AB3;
+      border-radius: 35px;
+    } 
+
+     .title_slider {
+        color: #f2f2f2;
+        font-size: 19px;
+        padding: 4px 6px;
+        top: 5px;
+        width: 100%;
+        text-align: center;
+        width: 800px;
+    }
+
+    .info_slider {
+        height: 25%;
+        background: #1C6AB3;
+        padding: 4px 6px;
+        top: 30%;
+        left: 18%;
+        color: white;
+        font-size: 20px;
+
+        padding-top: 30px;
+      }
+
+      .button_slider {
+        width: 100px;
+        height: 50px;
+        text-transform: uppercase;
+        font-size: 16px;
+        font-weight: 700;
+        color: white;
+        background: #1C6AB3;
+        border:2px solid white;
+        margin-top: 25px;
+        margin-left: 110px;
+      }
+
+      .button_slider:hover {
+        background: white;
+        color: red;
+      }
+
+    /* PART WITH PRODUCTS 
+     -------------------------------------------------- */
+    .block_middle_box
+    {
+      width:100%;
+      background-color: #DADADA;
+
+      display: grid;
+
+      grid-auto-rows: 0px;
+      grid-auto-columns: 0px;
+      justify-content: center;
+      grid:
+      "1 1 1 1"
+      "1 1 1 1"
+      ;
+      overflow: hidden;
+      clear: both;
+    }
+
+    .common_info_product {
+      background: #FFFFFF;
+      text-align: center;
+    }
+
+    .title_product {
+      font-size: 25px;
+      text-align: center;
+      margin-top: 15px;
+    }
+
+    .text_product {
+      margin-top: 20px;
+      font-size: 18px;
+    }
+
+    .price_product {
+      margin-top: 20px;
+      font-size: 20px;
+    }
+
+    .button_product {
+        width: 100px;
+        height: 50px;
+        text-transform: uppercase;
+        font-size: 16px;
+        color: white;
+        background: #1C6AB3;
+        border:2px solid white;
+        margin-top: 25px;
+        margin-left: 10px;
+        border-radius: 15px;
+      }
+
+      .button_product:hover {
+        background: #1C6AB3;
+        color: black;
+      }
+
+      #button_product1:hover, #button_product2:hover, #button_product3:hover {
+        background: #FFFFFF;
+        color: black;
+      }
+      
+      #button_product5:hover,#button_product6:hover, #button_product7:hover, #button_product8:hover, #button_product9:hover  {
+        background: green;
+        color: #FFFFFF;
+      }
+
+      /* TYPES OF COMPANIES */
+    .block_middle_companies
+    {
+      left: 0px;
+      width:100%;
+      background-color: #FFDCA0;
+      clear: both;
+      overflow: hidden;
+    }
+
+    .our_service {
+     font-size: 28px;
+     font-weight: 600;
+     text-transform: uppercase;
+     text-align: center;
+     background: #DADADA;
+
+     padding-top: 30px;
+     padding-bottom: 30px;
+    }
+
+    .element_middle_box_container
+    {
+      left: 0px;
+      overflow: hidden;
+      top: 50px;
+      background-color:#FFFFFF;
+      width: 250px;
+      height: 370px;
+
+      border-style: solid;
+      border-width: 2px 2px 2px 2px;
+      border-color: white;
+      border-radius: 30px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.5); 
+
+      margin-top: 10px;
+      margin-bottom: 10px;
+      margin-right:  10px;
+      margin-left: 10px;
+
+    }
+
+    .element_middle_box_image
+    {
+      position: relative;
+      left: 0px;
+      top: 0px;
+      width: 250px;
+      height: 250px;
+    }
+
+    .element_slide
+    {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    }
+
+    .element_slider_image {
+    width: 100%;
+    height: 100%;
+    } 
+
+    .element_slider_circle {
+      position: relative;
+      left: 0px;
+      top: 12.5px;
+      height: 20px;
+      width: 20px;
+      display: inline;
+
+      margin-right:  10px;
+      margin-left: 10px;
+      background-color:#FFFFFF;
+      border-radius: 50%;
+    }
+
+    .element_slider_circle:hover {
+      background-color: red;
+    }
+
+    .description_companies {
+      margin-top: 20px;
+      margin-left: 30px;
+      font-size: 18px;
+      font-weight: 600;
+    }
+    /*BUTTONS*/
+    .button_main_slider_next {
+      position: relative;
+      left: 0px;
+      top: 0px;
+      height: 350px;
+      width: 40px;
+
+      margin-right: 20px;
+    }
+
+     .button_main_slider_prev {
+      position: relative;
+      left: 0px;
+      top: 0px;
+      height: 350px;
+      width: 40px;
+
+      margin-left: 20px;
+    } 
+
+    .button_language_choice {
+      position: relative;
+      height:20px;
+      width: 50px;
+
+      display: inline;
+    }
+
+    .button_info_choice {
+      position: relative;
+      height: 50px;
+      width: 200px;
+
+      display: inline;
+      margin-right:  10px;
+      margin-left: 10px;
+      font-size: 19px;
+
+      background: white;
+
+      border: 3px solid #D1D2D8;
+      border-radius: 14px;
+    }
+
+
+    /* LETTER */
+
+    .letter {
+        height: 550px;
+        background:#DADADA;
+        position: relative;
+        padding-left: 70px;
+      }
+
+      .photo_letter {
+        position: absolute;
+        left: 20%;
+        top: 5%;
+      }
+
+      .form_letter {
+        position: absolute;
+        top: 10%;
+        left: 6%;
+      }
+
+      .title_letter {
+        font-size: 35px;
+        font-weight: 500;
+        text-align: center;
+      }
+
+    .subtitle_letter {
+        font-size: 24px;
+        font-weight: 400;
+        margin-top: 20px;
+        text-align: center;
+    }
+
+    .name_letter, .phone_letter, .email_letter {
+        font-size: 18px;
+        width: 200px;
+        height: 30px;
+        padding-left: 30px;
+        margin-left: 15px;
+        margin-top: 40px;
+    }
+
+    .text_letter {
+        width: 708px;
+        height: 100px;
+        margin-left: 15px;
+        margin-top: 30px;
+        font-size: 18px;
+        padding-left: 30px;
+    }
+
+    .button_letter {
+        width: 110px;
+        height: 40px;
+        text-transform: uppercase;
+        font-size: 16px;
+        font-weight: 500;
+        color: white;
+        background: #1C6AB3;
+        border:2px solid white;
+        margin-top: 35px;
+        margin-left: 39%;
+        border: #1C6AB3;
+        border-radius: 5%;
+    }
+
+    .button_letter:hover {
+        background: green;
+    }
+
+    /* ABOUT INSURANCE */
+
+.about_insurance {
+    display: block;
+    justify-content: center;
+    color: black;
+    background: #B6E2B6;
+}
+
+.main_title_insurance {
+    font-size: 34px;
+    text-align: center;
+    left: 0; 
+}
+
+.our_benefits {
+  width: 600px;
+  height: 50px;
+
+  background: #177D17;
+  color: #FFFFFF;
+  border: 3px solid #1C6AB3;
+
+  border-radius: 30px;
+  margin-left: 430px;
+  margin-top: 30px;
+
+  box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+
+.container_insurance {
+    display: grid;
+    grid: 
+    "1 1"
+    "1 1"
+    "1 1";
+    justify-content: center;
+}
+
+.insurance_block {
+    position: relative;
+    /* width: 100%; */
+    margin-top: 30px;
+    padding-left: 150px;
+    padding-right: 120px;
+
+    font-size: 20px;
+}
+
+.pic_container_insurance {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: 90px;
+}
+
+/* HOW TO ORDER INSURANCE */
+
+.main_order_insurance {
+    background: #DADADA;
+}
+
+.grid_order_insurance {
+    grid-auto-rows: 0px;
+    grid-auto-columns: 0px;
+    justify-content: center;
+    display: grid;
+    grid:
+    "1 1 1 1"
+    ;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.title_order_insurance {
+    font-size: 35px;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.block_order_insurance {
+    width: 300px;
+    text-align: center;
+    font-size: 19px;
+}
+
+.pic_order_insurance {
+    width: 40%;
+}
+
+/* FOOTER */
+.main_part_footer {
+    background: #DADADA;
+    height: 250px;
+    position: relative;
+}
+
+.part_li {
+    list-style-type: none;
+    color: black;
+    font-size: 18px;
+    padding-top: 30px;
+    padding-left: 50px;
+    width: 250px;
+}
+
+.part_li:hover {
+    color: blue;
+}
+
+.logo_footer {
+  position: absolute;
+    top: 20%;
+    right: 47%;
+}
+
+#logo_footer_img {
+  width: 200px;
+  height: 150px;
+}
+
+.text_footer {
+    color: black;
+    position: absolute;
+    top: 10%;
+    right: 3%;
+    font-size: 18px;
+}
+
+.icons_footer {
+    margin-top: 25px;
+    margin-left: 10px;
+    position: absolute;
+    top: 15%;
+    right: 9%;
+}
+
+.facebook_footer {
+    background: url("img/fb24.png");
+    width: 24px;
+    height: 24px;
+    display: inline-block;
+}
+
+.vk_footer{
+    background: url("img/vk24.png");
+    width: 24px;
+    height: 24px;
+    display: inline-block;
+}
+
+.insta_footer{
+    background: url("img/insta24.png");
+    width: 24px;
+    height: 24px;
+    display: inline-block;
+}
+
+.title_footer {
+  position: absolute;
+  margin-bottom: 10px;
+  top: 60%;
+  right: 5%;
+  font-size: 15px;
+  font-weight: 600;
+}
+
+.design_footer {
+  position: absolute;
+  margin-top: 10px;
+  top: 70%;
+  right: 5%;
+  font-weight: 600;
+}
+
+/* MAIN ORDER */
+
+.main_order {
+  background:rgba(0,0,0,.7);
+  padding-left: 70px;
+  position: fixed;
+  display: none;
+  top: 0;
+  z-index: 999;
+  width: 100%;
+  height: 100%;
+}
+
+.photo_order {
+  position: absolute;
+  left: 20%;
+  top: 5%;
+}
+
+.form_order {
+  position: absolute;
+  top: 8%;
+  left: 6%;
+}
+
+.title_order {
+  font-size: 35px;
+  font-weight: 500;
+  text-align: center;
+}
+
+.subtitle_order {
+  font-size: 24px;
+  font-weight: 400;
+  margin-top: 20px;
+  text-align: center;
+}
+
+.name_order, .phone_order, .email_order {
+  font-size: 18px;
+  width: 200px;
+  height: 30px;
+  padding-left: 30px;
+  margin-left: 15px;
+  margin-top: 40px;
+}
+
+.text_order {
+  width: 708px;
+  height: 100px;
+  margin-left: 15px;
+  margin-top: 15px;
+  font-size: 18px;
+  padding-left: 30px;
+}
+
+.button_order_cancel {
+  width: 110px;
+  height: 40px;
+  text-transform: uppercase;
+  font-size: 16px;
+  font-weight: 500;
+  color: white;
+  background: #1C6AB3;
+  border:2px solid white;
+  margin-left: 50%;
+  border: #1C6AB3;
+  border-radius: 5%;
+}
+
+.button_order_cancel:hover {
+  background: red;
+}
+
+.button_order {
+  width: 110px;
+  height: 40px;
+  text-transform: uppercase;
+  font-size: 16px;
+  font-weight: 500;
+  color: white;
+  background: #1C6AB3;
+  border:2px solid white;
+  margin-top: 35px;
+  margin-left: 10%;
+  border: #1C6AB3;
+  border-radius: 5%;
+}
+
+.button_order:hover {
+  background: green;
+}
+
+.title_form_order {
+  font-size: 19px;
+  padding-left: 15px;
+  padding-top: 15px;
+}
+
+.list_order {
+  margin-top: 15px;
+  margin-left: 15px;
+  font-size: 19px;
+  letter-spacing: 1px;
+}
+
+
+.hidden_info{
+  display: none;  
+
+}
+
+.visible_info{
+  display: block;  
+  
+}

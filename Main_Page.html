@@ -1,0 +1,466 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    
+    <link rel="stylesheet" href="../CSS/main.css">
+
+    <script src="../JS/main.js" defer></script>
+
+    <title>Global CZ Consult</title>
+    <link href="https://fonts.googleapis.com/css?family=Source+Serif+Pro&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    
+    <div class="block_upper_banner">
+        <div class="element_upper_banner_big_box"  style="grid-area: b1;">
+            <a href="mailto:ask@htmlbook.ru" id="mail_block_upper_banner"> Отправить письмо </a>
+        </div>
+        <div class="element_upper_banner_big_box" style="grid-area: b2;">Заказать звонок
+        </div>
+        <div class="element_upper_banner_big_box" style="grid-area: b3;height: 100px;padding: 0;"><img src="../PICs/my_logo.jpg" alt="Global CZ Konsult" id="my_logo"></div>
+
+        <div class="element_upper_banner_small_box" style="grid-area: s1;">
+            <a href="tel:+420774514548" class="tel_tel">+420(774)514 548</a>
+        </div>
+        <div class="element_upper_banner_small_box" style="grid-area: s2;">
+            <a href="tel:+420774514548" class="tel_tel">+420(774)514 548</a>
+        </div>
+
+        <div class="element_upper_banner_big_box" style="grid-area: b4;">
+            <img src="../PICs/fb24.png" alt="Facebook" class="icons_header">
+            <a href="https://www.instagram.com/global_cz_consult/" target="blank"><img src="../PICs/insta24.png" alt="Instagram" class="icons_header"></a>
+            <a href="https://vk.com/public189069710" target="blank"><img src="../PICs/vk24.png" alt="Vkontakte"class="icons_header"></a>
+        </div>
+    </div>
+
+    <div class="block_lower_banner">
+      <button class="button_info_choice"><a href="#price_of_services">Цены</button></a>
+      <button class="button_info_choice"><a href="#list_of_service">Список услуг</button></a>
+      <button class="button_info_choice"><a href="#how_to_make_order">Как заказать</button></a>
+      <button class="button_info_choice"><a href="#our_advantages">Наши преимушества</button></a>
+      <button class="button_info_choice">Контакты</button>
+    </div>
+     
+     <div class="block_main_slider">
+      <!-- <button class="button_main_slider_prev" onclick="MoveSlide(-1)"></button> -->
+
+      <div class="element_slide">
+            <img class="element_slider_image" src="..\PICs/slider1.jpg">
+            <div class="element_slider_info">
+                <p align="center">
+                        <div class="title_slider"><h2>Медицинское страхование иностранцев в Чехии</h2></div>
+                        <div class="info_slider">
+                            <!-- <p class="subtitle_slider">Найдёте дешевле - вернем разницу!</p> -->
+                            <p class="text_slider">По закону о пребывании иностранцев, каждый иностранец обязан иметь страховой полис на весь срок пребывания на территории Чешской Республики, а также для продления визы. Вы получаете бесплатное медицинское обслуживание на территории ЧР, а также защиту в случае экстренных ситуаций, связанных со здоровьем, на территории шенгенской зоны.</p>
+                            <!-- <button class="button_slider">Заказать</button> -->
+
+                        </div>
+                </p>
+            </div>
+      </div>
+
+      <div class="element_slide">
+        <img class="element_slider_image" src="..\PICs/slider2.jpg">
+        <div class="element_slider_info">
+            <p align="center">
+                <div class="title_slider"><h2>Гарантия лучшей цены</h2></div>
+                <div class="info_slider">
+                    <!-- <p class="subtitle_slider">Специальное предложение для студентов</p> -->
+                    <p class="text_slider">Данный вид страхового полиса подходит для продления студенческой визы (kod 23/24) а также визы типа ostatní (kod 99). 
+                        Также подходит для тех, кто только собирается переезжать в Чехию или является частным предпринимателем. </p>
+                    <!-- <button class="button_slider">Заказать</button> -->
+                </div>
+
+            </p>
+        </div>
+      </div>
+
+      <div class="element_slide">
+        <img class="element_slider_image" src="..\PICs/slider3.jpg">
+        <div class="element_slider_info">
+          <p align="center">
+            <div class="title_slider"><h2>К каждой страховке - подарок!</h2></div>
+            <div class="info_slider">
+                <!-- <p class="subtitle_slider">Оформи страховку - получи подарок</p> -->
+                <p class="text_slider">В страны СНГ высылаем бесплатно почтой(цена отправки делится пополам). Экспресс Доставка при желании платится клиентом отдельно.Страховой полис оформляем на 3/6/9/12 и более месяцев.</p>
+                <!-- <button class="button_slider">Заказать</button> -->
+            </div>
+          </p>
+        </div>
+      </div>
+
+      <!-- <button class="button_main_slider_next" onclick="MoveSlide(+1)"></button> -->
+
+
+    </div>
+
+    <div class="block_button_segment">
+        <div class="element_slider_circle" onclick="SelectSlide(0)"></div>
+        <div class="element_slider_circle" onclick="SelectSlide(1)"></div>
+        <div class="element_slider_circle" onclick="SelectSlide(2)"></div>
+    </div> 
+    <div class="our_service" id="list_of_service">список предоставляемых услуг</div>
+         <!---FIRST 4-->
+    <div class="block_middle_box">
+           
+
+        <div class="element_middle_box_container" id="price_of_services">
+            <img class="element_middle_box_image" src="..\PICs\zivnost.jpg">
+            <h3 class="title_product">Živnostenský list</h3>
+        </div>
+
+        <div class="element_middle_box_container">
+            <div class="common_info_product">
+                <h3 class="title_product">Оформление живностенского листа</h3>
+                <p class="text_product">Сбор документов, подача , получение живностенского листа, регистрация на финансовом и социальном уржаде</p>
+                <p class="price_product"><b>от 8 500 Kč</b></p>
+                <button class="button_product" id="button_product5"onclick="openForm()">Заказать</button>
+            </div>
+        </div>
+
+        <div class="element_middle_box_container">
+            <img class="element_middle_box_image" src="..\PICs/paper_2.jpg">
+            <h3 class="title_product" style="font-size: 19px;">В дополнение к страховке = 800Kč <br>
+            Без страховки = 1 500Kč</h3>
+        </div>
+
+        <div class="element_middle_box_container" style="background-color: #1C6AB3">
+            <div class="common_info_product" style="background-color: #1C6AB3; color: #FFF ">
+                <h3 class="title_product">Справки</h3>
+                <p class="text_product">Данная услуга нужна тем, кто собирается продлевать визу (23/24 или 99) на территории Чешской Республики, и в данный момент у них недостаточно средств на личном счёте. </p>
+                <p class="price_product"><b>от 800 Kč</b></p>
+                <button class="button_product" id="button_product1" onclick="openForm()">Заказать</button>
+            </div>
+        </div>
+
+        <!-- BEGIN SECOND 4-->
+        <div class="element_middle_box_container">
+            <img class="element_middle_box_image" src="..\PICs/translator.jpg">
+            <h3 class="title_product">Překlad</h3>
+        </div>
+    
+        <div class="element_middle_box_container"  style="background-color: #1C6AB3">
+            <div class="common_info_product" style="background-color: #1C6AB3; color: #FFF ">
+                <h3 class="title_product">Переводы документов</h3>
+                <p class="text_product">Судебный перевод документов в Чехии. Опытный судебный переводчик имеющий государственную лицензию. Более 5 языков.</p>
+                <p class="price_product"><b>от 250 Kč</b></p>
+                <button class="button_product" id="button_product2" onclick="openForm()">Заказать</button>
+            </div>
+        </div>
+    
+        <div class="element_middle_box_container">
+            <img class="element_middle_box_image" src="..\PICs/auto_insurance.jpg">
+            <h3 class="title_product" style="font-size: 19px;">(Для наших клиентов по страхованию)</h3>
+        </div>
+    
+        <div class="element_middle_box_container" >
+            <div class="common_info_product" >
+                <h3 class="title_product">Автострахование</h3>
+                <p class="text_product">У нас вы можете выбрать подходящий для вас страховой полис каско и осаго, а также дополнительные услуги к страховому полису</p>
+                <p class="price_product"><b>Индивидуально</b></p>
+                <button class="button_product" id="button_product6" onclick="openForm()">Заказать</button>
+            </div>
+        </div>
+
+          <!--END SECOND 4 -->
+
+          <!--BEGIN THIRD 4 -->
+            <div class="element_middle_box_container">
+                <img class="element_middle_box_image" src="..\PICs/office.jpg">
+                <h3 class="title_product">Sídlo společnosti</h3>
+            </div>
+        
+            <div class="element_middle_box_container">
+                <div class="common_info_product">
+                    <h3 class="title_product">Юридический адрес для фирмы</h3>
+                    <p class="text_product">Данная услуга необходима тем, кто собирается открыть собственный бизнес на территории Чешской Республики и ещё не места для регистрации компании,ИП</p>
+                    <p class="price_product"><b>от 2 700 Kč</b></p>
+                    <button class="button_product" id="button_product7" onclick="openForm()">Заказать</button>
+                </div>
+            </div>
+        
+            <div class="element_middle_box_container">
+                <img class="element_middle_box_image" src="..\PICs/praha.jpg">
+                <h3 class="title_product" style="font-size: 19px;">Срок на 1-2 года. (Скидка для клиентов по страхованию до 30%)</h3>
+            </div>
+        
+            <div class="element_middle_box_container"style="background-color: #1C6AB3" >
+                <div class="common_info_product" style="background-color: #1C6AB3; color: #FFF " >
+                    <h3 class="title_product">Прописка в Праге</h3>
+                    <p class="text_product">Для продления чешской визы, вам необходимо предоставить в полицию для иностранцев документ, подтверждающий ваше проживание на территории ЧР. Мы поможем вам решить эту проблему. </p>
+                    <p class="price_product"><b>от 5 000 Kč</b></p>
+                    <button class="button_product" id="button_product3" onclick="openForm()">Заказать</button>
+                </div>
+            </div>
+            <!--END THIRD 4 -->
+
+            <!--BEGIN FOURTH 4 -->
+
+            <div class="element_middle_box_container">
+                <img class="element_middle_box_image" src="..\PICs/nostr.jpg">
+                <h3 class="title_product">Nostrifikace</h3>
+            </div>
+            
+            <div class="element_middle_box_container"  style="background-color: #1C6AB3">
+                <div class="common_info_product" style="background-color: #1C6AB3; color: #FFF ">
+                    <h3 class="title_product">Нострификация</h3>
+                    <p class="text_product">
+                        <ul>
+                            <li>Школьного аттестата</li>
+                            <li>Диплома о высшем образовании </li>
+                            <li>Аппробация медицинского образования</li>
+                            <li>Услуга переводчика на нострификацию</li>
+                        </ul> 
+                    </p>
+                    <p class="price_product"><b>от 1000 Kč</b></p>
+                    <button class="button_product" id="button_product2" onclick="openForm()">Заказать</button>
+                </div>
+            </div>
+            
+            <div class="element_middle_box_container">
+                <img class="element_middle_box_image" src="..\PICs/course.jpg">
+                <h3 class="title_product" style="font-size: 17px;">
+                    <div>Стоимость курсов 13 000Kč за 6 месяцев.</div> 
+                    <div>Стоимость курсов 23 000Kčза 12 месяцев</div> </h3>
+            </div>
+    
+            <div class="element_middle_box_container" >
+                <div class="common_info_product" >
+                    <h3 class="title_product">Курсы чешского языка</h3>
+                    <p class="text_product">Курсы чешского языка, которые помогут в случае отчисления из вуза и позволят остаться на территории ЧР</p>
+                    <p class="price_product"><b>от 13 000 Kč</b></p>
+                    <button class="button_product" id="button_product8"  onclick="openForm()">Заказать</button>
+                </div>
+            </div>
+
+            <!--END FOURTH 4 -->
+
+            <!--BEGIN 5 4-->
+
+            <div class="element_middle_box_container">
+                <img class="element_middle_box_image" src="..\PICs/Tab06.jpg">
+                <h3 class="title_product">Výlety</h3>
+            </div>
+        
+            <div class="element_middle_box_container">
+                <div class="common_info_product">
+                    <h3 class="title_product">Экскурсии</h3>
+                    <p class="text_product">Групповые и индивидуальные экскурсии в города Чехии. Большой выбор туров по привлекательным ценам</p>
+                    <p class="price_product"><b>Индивидуально</b></p>
+                    <button class="button_product" id="button_product9"  onclick="openForm()" >Заказать</button>
+                </div>
+            </div>
+        
+            <div class="element_middle_box_container">
+                <img class="element_middle_box_image" src="..\PICs/visum.jpg">
+                <h3 class="title_product" style="font-size: 19px;">Срок оформления 1,5 месяца.
+                    <div>Срок действия визы 2 года.</div>
+                </h3>
+            </div>
+        
+            <div class="element_middle_box_container"style="background-color: #1C6AB3" >
+                <div class="common_info_product" style="background-color: #1C6AB3; color: #FFF " >
+                    <h3 class="title_product">Рабочие визы</h3>
+                    <p class="text_product" >Предоставляем возможность получить трудовую визу в ЧР или Финляндию. </p>
+                    <p class="price_product"><b>от 6 500 Kč</b></p>
+                    <button class="button_product" id="button_product3" onclick="openForm()">Заказать</button>
+                </div>
+            </div>
+
+            <!--END 5 4-->
+    </div>
+
+    <!--- END PART WITH PRODUCTS-->
+
+    <!--TYPES OF COMPANIES-->
+
+    <div class="block_middle_companies">
+        
+
+            <div class="element_companies_logos">
+                <div class="title_types_insurance">Выберите вашу страховую компанию</div>
+    <div class="main_flex">
+                <div class="element_company_logo_box">
+                    <img class="element_company_logo_image" src="..\PICs/maxima_insurance.jpeg" onclick="ChangeCompanyInfo(0)">
+                </div>
+                <div class="element_company_logo_box">
+                    <img class="element_company_logo_image" src="..\PICs/axa_insurance.png" onclick="ChangeCompanyInfo(1)">
+                </div>
+                <div class="element_company_logo_box">
+                    <img class="element_company_logo_image" src="..\PICs/uniqa_.jpg" onclick="ChangeCompanyInfo(2)">
+                </div>
+                <div class="element_company_logo_box">
+                    <img class="element_company_logo_image" src="..\PICs/slavia_insurance.jpg" onclick="ChangeCompanyInfo(3)">
+                </div>
+            </div>
+    </div>
+
+            <div class="element_company_info">
+                <div class="element_conmpany_info_box">
+                <p class="description_companies"> <!--MAXIMA-->
+                    <div class="description_companies">Лимит покрытия - 2 млн крон (покрытие в зоне Шенгена - 1,2 млн крон)</div>
+                    <div class="description_companies">Стоматология - 10 000 крон</div>
+                    <div class="description_companies">Обязательные прививки</div>
+                    <div class="description_companies">Страхование ответсвенности (с лимитом про 500 000 крон на ущерб здоровью)</div>
+                    <div class="description_companies">Открытый доступ к списку договорных поликлиник (необязательно звонить в службу поддержки для записи)</div>
+                    </p>
+                </div>
+ 
+            <div class="element_conmpany_info_box">
+                <p class="description_companies"> <!--AXA-->
+                    <div class="description_companies">Лимит покрытия - 1,5 млн крон (покрытие в зоне Шенгена - 1,5 млн крон)</div>
+                    <div class="description_companies">Стоматология - 5 000 крон</div>
+                    <div class="description_companies">Обязательные прививки</div>
+                    <div class="description_companies">Крупнейшая страхования компания в мире</div>
+                    <div class="description_companies">Личные врачи</div>
+                    <div class="description_companies">Врачей в зоне Шенгена больше , чем у конкурентов</div>
+                    <div class="description_companies">Отлаженная работа службы поддержки на 5 языках</div>
+                </p>
+            </div>
+            <div class="element_conmpany_info_box">
+                <p class="description_companies"> <!--UNIQUE-->
+                    <div class="description_companies">Лимит покрытия - 1,85 млн крон (покрытие в зоне Шенгена - 1,85 млн крон)</div>
+                    <div class="description_companies">Стоматология - 1,85 млн крон</div>
+                    <div class="description_companies">Обязательные прививки</div>
+                    <div class="description_companies">Больше договорных поликоиник и врачей на переферии Чешской Республики</div>
+                </p>
+            </div>
+            <div class="element_conmpany_info_box">
+                <p class="description_companies"> <!--SLAVIA-->
+                    <div class="description_companies">Лимит покрытия - 2 млн крон (покрытие в зоне Шенгена - 2 млн крон)</div>
+                    <div class="description_companies">Стоматология - 5 000 крон</div>
+                    <div class="description_companies">Открытый список договорных поликлиник</div>
+                    <div class="description_companies">Экономия при покупке на 2 года</div>
+                </p>
+            </div>
+                       </div>
+        </div>
+    </div>
+
+    <!--LETTER-->
+
+    <div class="letter">
+        <div class="photo_letter">
+            <img src="../PICs/letter.png" alt="">
+            <div class="form_letter">
+                <div class="title_letter">Необходима консультация специалиста?</div>
+                <div class="subtitle_letter">Мы вам с радостью ответим на все вопросы, оставьте свои данные и мы свяжемся с вами</div>
+                    <input type="text" value="" placeholder="Имя" required  class="name_letter">
+                    <input type="text" value="" placeholder="Ваш телефон" required class="phone_letter">
+                    <input type="email" placeholder="Ваш Email" required class="email_letter">
+                    <div>
+                        <input type="text" placeholder="Сообщение" required class="text_letter">
+                    </div>
+                    <input type="submit" value="отправить" required  class="button_letter">
+            </div>
+        </div>
+    </div>
+        
+    <article style="display:flex; justify-content: center">
+        <div class="about_insurance">
+            <div class="main_info_insurance">
+                <div class="main_title_insurance" id="our_advantages"> <div class="our_benefits">Наши преимушества</div></div>
+                <div class="container_insurance">
+                    <div class="insurance_block"><img src="../PICs/money_a_quality.png" alt="" class="pic_container_insurance">
+                        <div><b>Лучшее соотношение цены и качества</b></div>
+                    </div>
+                    <div class="insurance_block"><img src="../PICs/post_office.png" alt="" class="pic_container_insurance">
+                        <div><b>Доставка по Праге или пересылка почтой</b></div>
+                    </div>
+                    <div class="insurance_block"><img src="../PICs/delivery.png" alt="" class="pic_container_insurance">
+                        <div><b>Возможность международной доставки</b></div>
+                    </div>
+                    <div class="insurance_block"><img src="../PICs/eu.png" alt=""class="pic_container_insurance">
+                        <div><b>Действует во всех странах Шенгенского договора</b></div>
+                    </div>
+                    <div class="insurance_block"><img src="../PICs/helper.png" alt="" class="pic_container_insurance">
+                        <div><b>При заказе любой услуги из нашего списка вы получаете дальнейшие консультации по всем интересующим вас вопросам абсолютно бесплатно</b></div>
+                    </div>
+                    <div class="insurance_block"><img src="../PICs/lawyer.png" alt="" class="pic_container_insurance">
+                        <div><b class="text_insurance">Все документы сразу же преобретают юридическую силу, моментальное отображение в системах ЧР</b></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </article>
+
+    <!-- HOW TO ORDER INSURANCE-->
+
+    <article>
+        <div class="main_order_insurance">
+            <div class="title_order_insurance" id="how_to_make_order">Как заказать страховку?</div>
+            <div class="grid_order_insurance">
+                <div class="block_order_insurance"><img src="../PICs/time.png" alt="" class="pic_order_insurance"><p>Выберите срок и тип <br> страхования</p></div>
+                <div class="block_order_insurance"><img src="../PICs/application.png" alt="" class="pic_order_insurance"><p>Заполните форму на сайте. <br> Это займет не более 1 минуты</p></div>
+                <div class="block_order_insurance"><img src="../PICs/employeer.png" alt="" class="pic_order_insurance"><p>После этого с вами свяжется <br> сотрудник для оплаты</p></div>
+                <div class="block_order_insurance"><img src="../PICs/yours_insurance.png" alt="" class="pic_order_insurance"><p>Вы получаете вашу страховку лично <br> в руки или заказным письмом на ваш адрес</p></div>
+            </div>
+        </div>
+    </article>
+
+    <!--FOOTER-->
+    <footer>
+        <div class="main_part_footer">
+            <ul class="nav_footer">
+                <li class="part_li">Главная</li>
+                <li class="part_li">Цены</li>
+                <li class="part_li">Список услуг</li>
+                <li class="part_li">Что дает страховка</li>
+            </ul>
+            
+            <div class="logo_footer"><img src="../PICs/my_logo.jpg" alt="Global CZ Consult" id="logo_footer_img"></div>
+            <div class="text_footer">Следите за нами в социальных сетях</div>
+            <div class="icons_footer">
+                <div class="facebook_footer"><img src="../PICs/fb24.png" alt="Facebook"></div>
+                <a href="https://vk.com/public189069710" target="blank"><div class="vk_footer"><img src="../PICs/vk24.png" alt="Vkontakte"></div></a>
+                <a href="https://www.instagram.com/global_cz_consult/" target="blank"><div class="insta_footer"><img src="../PICs/insta24.png" alt="Instagram"></div></a>
+            </div>
+            <h5 class="title_footer">Global CZ Consult , Inc.</h5>
+            <div class="design_footer">&copy; 2017 Global CZ Consult. All rights reserved <br>
+        </div>
+    </footer>
+
+    <!--WINDOW FOR ORDER-->
+
+    <div class="main_order" id="main_order">
+        <div class="photo_order">
+            <img src="../PICs/letter.png" alt="">
+            <div class="form_order">
+                <div class="title_order">Подтверждение заявки на услугу</div>
+                <div class="subtitle_order">Укажите удобное время для связи (МСК) и выбранную услугу</div>
+                    <input type="text" value="" placeholder="Имя"  class="name_order" required>
+                    <input type="text" value="" placeholder="Ваш телефон" required class="phone_order">
+                    <input type="email" placeholder="Ваш Email" required class="email_order">
+                    <div>
+                        <input type="text" placeholder="Сообщение" required class="text_order">
+                    </div>
+                    <form>
+                        <p class="title_form_order">Ваша услуга:</p>
+                        <p><select name="hero" class="list_order">
+                            <option value="Медицинское страхование"selected>Медицинское страхование</option>
+                            <option value="Оформление живностенского листа" >Оформление живностенского листа</option>
+                            <option value="Справки">Справки</option>
+                            <option value="Переводы документов" >Переводы документов</option>
+                            <option value="Автострахование" >Автострахование</option>
+                            <option value="Юридический адрес для фирмы" >Юридический адрес для фирмы</option>
+                            <option value="Прописка в Праге" >Прописка в Праге</option>
+                            <option value="Нострификация" >Нострификация</option>
+                            <option value="Курсы чешского языка" >Курсы чешского языка</option>
+                            <option value="Открытие фирмы" >Открытие фирмы</option>
+                            <option value="Рабочие визы">Рабочие визы</option>
+                        </select> 
+                        </p>
+                    </form> 
+                    <input type="submit" value="отправить" required  class="button_order">
+                    <input type="submit" value="отменить" required  class="button_order_cancel"onclick="closeForm()">
+            </div>
+        </div>
+    </div>
+
+
+</body>
+</html>
